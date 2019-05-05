@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54c1254-a32c-469a-a32e-232fead1410e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddExperience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Education.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/dashboard/ProfileActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/edit-profile/EditProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/not-found/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileAbout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileCreds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileGithub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profiles/ProfileItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devconnector-client/src/components/profiles/Profiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devconnector-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devconnector-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devconnector-client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,35 +24,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddExperience.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="20" column="23" selection-end-line="168" selection-end-column="83" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddEducation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/edit-profile/EditProfile.js">
+        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="166">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/not-found/NotFound.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileAbout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devconnector-client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,16 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/validation/login.js" />
-        <option value="$PROJECT_DIR$/validation/profile.js" />
-        <option value="$PROJECT_DIR$/validation/experience.js" />
-        <option value="$PROJECT_DIR$/validation/education.js" />
-        <option value="$PROJECT_DIR$/models/Profile.js" />
-        <option value="$PROJECT_DIR$/routes/api/profile.js" />
-        <option value="$PROJECT_DIR$/models/Post.js" />
-        <option value="$PROJECT_DIR$/routes/api/post.js" />
-        <option value="$PROJECT_DIR$/validation/post.js" />
-        <option value="$PROJECT_DIR$/routes/api/posts.js" />
         <option value="$PROJECT_DIR$/devconnector-client/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/devconnector-client/src/App.css" />
@@ -103,7 +106,6 @@
         <option value="$PROJECT_DIR$/devconnector-client/src/components/dashboard/dashboard.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/auth/Register.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/auth/Login.js" />
-        <option value="$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/common/Spinner.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/common/PrivateRouter.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/common/PrivateRoute.js" />
@@ -116,12 +118,23 @@
         <option value="$PROJECT_DIR$/devconnector-client/src/components/dashboard/ProfileActions.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddExperience.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/add-credentials/AddEducation.js" />
-        <option value="$PROJECT_DIR$/devconnector-client/src/App.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Experience.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Dashboard.js" />
-        <option value="$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/dashboard/Education.js" />
         <option value="$PROJECT_DIR$/devconnector-client/src/components/edit-profile/EditProfile.js" />
+        <option value="$PROJECT_DIR$/routes/api/profile.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profiles/ProfileItem.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profiles/Profiles.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileGitHub.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileHeader.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileCreds.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileAbout.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileGithub.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/not-found/NotFound.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/App.js" />
+        <option value="$PROJECT_DIR$/devconnector-client/src/components/profile/Profile.js" />
       </list>
     </option>
   </component>
@@ -144,7 +157,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-17" />
-    <option name="width" value="789" />
+    <option name="width" value="775" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -155,8 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,51 +198,21 @@
               <item name="devconnector" type="462c0819:PsiDirectoryNode" />
               <item name="devconnector-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="add-credentials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="devconnector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devconnector" type="462c0819:PsiDirectoryNode" />
-              <item name="devconnector-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="devconnector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devconnector" type="462c0819:PsiDirectoryNode" />
-              <item name="devconnector-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="edit-profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="devconnector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devconnector" type="462c0819:PsiDirectoryNode" />
-              <item name="devconnector-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="devconnector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="devconnector" type="462c0819:PsiDirectoryNode" />
-              <item name="devconnector-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556803846071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557054615406" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,18 +262,20 @@
       <workItem from="1556537822431" duration="593000" />
       <workItem from="1556616127987" duration="9496000" />
       <workItem from="1556738521705" duration="5972000" />
-      <workItem from="1556787922702" duration="12248000" />
+      <workItem from="1556787922702" duration="16182000" />
+      <workItem from="1556962042156" duration="5846000" />
+      <workItem from="1557048423641" duration="5815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97583000" />
+    <option name="totallyTimeSpent" value="113178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="0" width="789" height="754" extended-state="0" />
+    <frame x="-17" y="0" width="775" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.218107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25174826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +292,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36933798" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28745645" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -326,59 +309,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/validator/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validation/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validation/experience.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validation/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/post.js" />
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4913">
-          <caret line="289" column="9" selection-start-line="289" selection-start-column="9" selection-end-line="289" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validation/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validation/education.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -541,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/common/PrivateRoute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -669,16 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector-client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/dashboard/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -693,16 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,6 +633,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/reducers/profileReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profiles/ProfileItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profiles/Profiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/actions/profileActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileCreds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileAbout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/ProfileGithub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/not-found/NotFound.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector-client/src/components/profile/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
